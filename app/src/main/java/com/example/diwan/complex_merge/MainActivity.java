@@ -13,12 +13,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void doSomeThing(){
 
-        int i = 90;
-        int ii = 300;
+        int i = 35;
+
+        int ii = 200;
 
         String toString;
 
-        if(i<100){
+        if(i<150){
             toString = Integer.toString(i-10);
         }
 
