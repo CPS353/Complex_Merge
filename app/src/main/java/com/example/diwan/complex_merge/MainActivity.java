@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void doSomeThing(){
 
-        int i = 9;
-        int ii = 100;
+        int i = 90;
+        int ii = 300;
 
         String toString;
 
@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    public void update(){}
 
     public void restore(){}
 
