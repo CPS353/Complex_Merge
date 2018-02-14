@@ -13,15 +13,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void doSomeThing(){
 
-        int i = 9;
-        int ii = 100;
+        int i = 90;
+        int ii = 300;
 
         String toString;
 
-        if(i<100){
-            toString = Integer.toString(i-10);
+        if(i>200){
+            toString = Integer.toString(i+10);
         }
 
     }
+
+    public void update(){}
 
 }
